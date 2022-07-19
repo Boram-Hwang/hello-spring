@@ -27,7 +27,7 @@ public class HelloController {
     @ResponseBody // 응답 Body부에 내가 직접 넣어주겠다.
     public String helloString(@RequestParam("name") String name){
         return "hello " + name; // "hello spring"
-        // 템플릿 엔진과의 차이 : view가 없음, 문자가 그대로 감 태그 없음
+        // 템플릿 엔진과의 차이 : View가 없음, 문자가 그대로 감 태그 없음
     }
 
     // api - 데이터인 경우
